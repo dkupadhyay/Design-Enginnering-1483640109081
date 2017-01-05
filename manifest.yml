@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Design Enginnering
+  host: Design-Enginnering
+  disk_quota: 1024M
+  services:
+  - Design Enginnering-cloudantNoSQLDB
+  - Design Enginnering-iotf-service
